@@ -18,8 +18,8 @@ jobs:
 
       - name: Create missing env files
         run: |
-          touch .env.example
-          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > .env
+          echo 'GEMINI_API_KEY="NONE"' > .env.example
+          echo 'GEMINI_API_KEY="NONE"' > .env
 
       - name: Build Debug APK
         run: gradle assembleDebug
