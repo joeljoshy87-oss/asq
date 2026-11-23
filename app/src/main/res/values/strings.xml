@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SubPulse</string>
+
+    <!-- Navigation -->
+    <string name="nav_console">Console</string>
+    <string name="nav_tuning">Tuning</string>
+    <string name="nav_engine">Engine</string>
+
+    <!-- Capture Sources -->
+    <string name="source_app_audio">App Audio</string>
+    <string name="source_live_mic">Live Mic</string>
+    <string name="source_sub_lab">Sub-Lab</string>
+    <string name="source_app_audio_desc">Captures background music from Spotify, YouTube, or any media app via AudioPlaybackCapture</string>
+    <string name="source_live_mic_desc">Captures live speakers, concerts, or DRM audio via unprocessed low-latency mic</string>
+    <string name="source_sub_lab_desc">Audible 48kHz 808 &amp; kick synthesizer routed live through the neural DSP and haptic engine</string>
+
+    <!-- Actions & Controls -->
+    <string name="action_start_subpulse">Activate SubPulse</string>
+    <string name="action_stop_subpulse">Stop SubPulse</string>
+    <string name="action_haptic_mute">Mute Haptics</string>
+    <string name="action_haptic_unmute">Unmute Haptics</string>
+    <string name="action_kick_pad">KICK PAD</string>
+    <string name="action_bass_pad">HOLD 808 SUB</string>
+    <string name="action_test_kick">Test Kick Chirp</string>
+    <string name="action_test_bass">Test 50Hz Sub</string>
+    <string name="action_test_combo">Test Sidechain</string>
+    <string name="action_reset_defaults">Reset Defaults</string>
+
+    <!-- Status & Telemetry -->
+    <string name="status_active">ACTIVE</string>
+    <string name="status_standby">STANDBY</string>
+    <string name="status_capturing_app">Syncing Background App Audio</string>
+    <string name="status_capturing_mic">Listening to Live Audio</string>
+    <string name="status_sub_lab_running">Sub-Lab Live Synth Active</string>
+    <string name="status_ready_hint">Play music in any app or tap Sub-Lab to feel real-time Kick vs. Bass separation</string>
+
+    <!-- Meters & Channels -->
+    <string name="channel_kick">KICK TRANSIENT</string>
+    <string name="channel_bass">SUB-BASS SUSTAIN</string>
+    <string name="channel_actuator">LRA DRIVE</string>
+    <string name="presets_title">Acoustic Profiles</string>
+    <string name="sublab_deck_title">Sub-Lab Live Synth Deck</string>
+
+    <!-- Tuning Labels -->
+    <string name="tuning_kick_section">Kick Drum Transient Shaping</string>
+    <string name="tuning_bass_section">Sub-Bass Harmonic Rumble</string>
+    <string name="tuning_sync_section">Neural Classifier &amp; Sync</string>
+    <string name="label_master_drive">Master Subwoofer Drive</string>
+    <string name="label_kick_gain">Kick Punch Intensity</string>
+    <string name="label_kick_tightness">Transient Tightness (Pitch Chirp)</string>
+    <string name="label_kick_sensitivity">Onset Trigger Sensitivity</string>
+    <string name="label_beater_boost">Beater-Click Transient Boost</string>
+    <string name="label_bass_gain">Sub-Bass Rumble Depth</string>
+    <string name="label_bass_crossover">Low-Pass Crossover Cutoff</string>
+    <string name="label_bass_smoothness">Envelope Smoothness</string>
+    <string name="label_sidechain_duck">Kick Sidechain Ducking</string>
+    <string name="label_latency_sync">Bluetooth Audio Sync Delay</string>
+    <string name="label_adaptive_agc">Adaptive Dynamic AGC</string>
+
+    <!-- Engine Screen -->
+    <string name="engine_lra_hardware">Actuator Hardware Profile</string>
+    <string name="engine_neural_features">Live 10-Feature MIR Neural Vector</string>
+    <string name="engine_calibration">Haptic Actuator Calibration</string>
+    <string name="engine_stack">2026 Signal Architecture</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">SubPulse Haptic Subwoofer</string>
+    <string name="notif_channel_desc">Real-time low-frequency audio capture and haptic subwoofer synchronization</string>
+    <string name="notif_title_running">SubPulse Subwoofer Active</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <!-- Errors & Permissions -->
+    <string name="error_no_vibrator">This device does not expose a hardware vibration actuator</string>
+    <string name="error_mic_permission">Audio permission is required to analyze real-time music playback</string>
+    <string name="error_projection_denied">System audio capture was cancelled — switch to Live Mic or Sub-Lab, or retry</string>
+    <string name="error_api_playback_capture">Internal app audio capture requires Android 10+; switched to Live Mic</string>
+</resources>

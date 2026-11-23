@@ -1,0 +1,6 @@
+{
+  "name": "SubPulse",
+  "description": "Real-time acoustic subwoofer haptic engine using multi-band IIR crossover, JTransforms STFT, HPSS, on-device neural Kick vs. Bass classification, and Android 16 PWLE haptic envelopes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
